@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.section{
+    display: flex;
+     justify-content:space-evenly;
+     flex-wrap: wrap;
+   
+    /* align-items:center;  */
+
+     min-height: 60vh; 
+
+    width: 100vw;
+    gap: 30px;
+  
+}
+.roz{
+    min-height: 100vh;
+    width: 100vw;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div1{
+
+
+    width: 400px;
+    background-image: url(./imiges/iphone.avif);
+    background-size: cover;
+    min-height: 50vh;
+    max-height: 55vh;
+
+}
+.div2{
+    background-color:rgb(238, 231, 219);
+
+    width: 600px;
+    gap: 13px;
+    
+}
+@media(max-width:830px)
+{
+    .section{
+        display: flex;
+         justify-content:space-evenly;
+         flex-wrap: wrap;
+       
+        /* align-items:center;  */
+    
+         min-height:100vh; 
+       
+        width: 100vw;
+        gap: 30px;
+      
+    }
+    
+}
+@media(max-width:430px)
+{
+ .div1{
+    width: 300px;
+ }
+ .div2{
+    width: 300px;
+ }
+  
+ 
+}
+@media(max-width:320px)
+{
+ .div1{
+    width: 220px;
+ }
+ .div2{
+    width: 220px;
+ }
+
+    
+}
+
+.navo{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+}
+.tabu{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 18px;
+}
+.tabu a{
+ 
+    color: black;
+   
+}
+.text{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 14px;
+}
+.aa{
+    cursor: pointer;
+}
+body{
+    overflow-x: hidden;
+}
+.daba{
+    width: 22%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.time{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+
+}
+.old{
+    color: rgb(84, 209, 168);
+}
+.rend{
+    opacity: 0.4;
+}
